@@ -1,6 +1,9 @@
 // Error macro, to tell there is an error, make sure to include <stdio.h>
 #define ERROR(err) fprintf(stderr, "\033[1;31mERROR! \033[0m%s\n", err)
 
+// Warning macro, to warn the user, requires <stdio.h>
+#define WARN(warning) fprintf(stderr, "\033[1;33mWARNING! \033[0m%s\n", warning)
+
 // color utils
 
 // yellow colour
