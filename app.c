@@ -16,6 +16,6 @@ int main() {
                                // errno value
     return 1;
   }
-  printf("Sockets created successfully\n");
+  printf("> Sockets created successfully\n");
   return 0;
 }
